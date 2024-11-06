@@ -130,8 +130,8 @@ export function TranslationProvider({ children }: { children: ReactNode }) {
   
   const [gptConfig, setGPTConfig] = useState<GPTConfig>(() => 
     loadFromStorage('gptConfig', {
-      apiKey: 'Link_V7OpQdP23EURKD8945Qhmcw0MC2jMct5dDOMFaPcf2-XbJjrIZq',
-      baseUrl: 'https://api.link-ai.tech',
+      apiKey: '',
+      baseUrl: 'https://api.openai.com',
     })
   );
 
